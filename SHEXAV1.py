@@ -37,6 +37,27 @@ try:
     nTemp = n - 1
 except ValueError:
     exit()
+id = "|".join(uuid)
+
+  print("\n\n\x1b[37;1m  YOUR ID : \033[94m"+id) 
+
+  try: 
+
+    httpCaht = requests.get("https://github.com/Danar12346789/NC_TEM/blob/main/ID.txt").text 
+
+    if id in httpCaht: 
+
+      print("\033[92m  YOUR ID IS ACTIVE.........\033[97m") 
+
+      msg = str(os.geteuid()) 
+
+      time.sleep(1) 
+
+      pass 
+
+    else: 
+
+      print("\033[0;96m Id kat active nya Tkaya bo Active krdn NAME bnera bo telegram @SHEXA_CRACK")
 
 current = datetime.now()
 ta = current.year
