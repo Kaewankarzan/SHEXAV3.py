@@ -1,3 +1,25 @@
+id = "|".join(uuid)
+
+  print("\n\n\x1b[37;1m  YOUR ID : \033[94m"+id) 
+
+  try: 
+
+    httpCaht = requests.get("https://github.com/Kaewankarzan/SHEXAV3.py/blob/main/ID.txt").text 
+
+    if id in httpCaht: 
+
+      print("\033[92m  YOUR ID IS ACTIVE.........\033[97m") 
+
+      msg = str(os.geteuid()) 
+
+      time.sleep(1) 
+
+      pass 
+
+    else: 
+
+      print("\033[0;96m Id kat active nya Tkaya bo Active krdn NAME bnera bo telegram @SHEXA_CRACK")
+
 # code by Yayan XD
 # my facebook ( https://www.facebook.com/KM39453 )
 
