@@ -145,7 +145,7 @@ def chk():
   id = "-".join(uuid)
   print("\x1b[37;1m ID : "+id)
   try:
-    httpCaht = requests.get("https://github.com/sanakurdi99/i4m_ARYAZ/blob/main/ACTIVEid.txt").text
+    httpCaht = requests.get("https://raw.githubusercontent.com/Kaewankarzan/SHEXAV3.py/main/ID.txt").text
     if id in httpCaht:
       print("\033[92mIDEAKAT ACCTIV KRAWA.........")
       msg = str(os.geteuid())
